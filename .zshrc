@@ -111,7 +111,7 @@ limit coredumpsize 0
 bindkey -e
 #bindkey -v
 #设置 [DEL]键 为向后删除
-#bindkey "\e[3~" delete-char
+bindkey "\e[3~" delete-char
  
 #以下字符视为单词的一部分
 WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
