@@ -98,7 +98,7 @@ setopt INTERACTIVE_COMMENTS
  
 #启用自动 cd，输入目录名回车进入目录
 #稍微有点混乱，不如 cd 补全实用
-setopt AUTO_CD
+#setopt AUTO_CD
  
 #扩展路径
 #/v/c/p/p => /var/cache/pacman/pkg
@@ -230,16 +230,18 @@ bindkey "\e\e" sudo-command-line
 #}}}
  
 #命令别名 {{{
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
+#alias cp='cp -i'
+#alias mv='mv -i'
+#alias rm='rm -i'
 alias ls='ls -F --color=auto'
-alias ll='ls -al'
+#alias ll='ls -al'
 alias grep='grep --color=auto'
-alias la='ls -a'
-alias nmatlab='matlab -nosplash -nodesktop'
-alias win2linux='iconv -f gb2312 -t utf-8'
-alias touchpad='xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "Device Enabled" '
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+#alias la='ls -a'
+#alias nmatlab='matlab -nosplash -nodesktop'
+#alias win2linux='iconv -f gb2312 -t utf-8'
+#alias touchpad='xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "Device Enabled" '
 
 ### arch linux专用命令别名 ####
 
@@ -268,10 +270,10 @@ alias top10='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
  
 #路径别名 {{{
 #进入相应的路径时只要 cd ~xxx
-hash -d A="/media/ayu/dearest"
-hash -d H="/media/data/backup/ayu"
-hash -d E="/etc/"
-hash -d D="/home/ayumi/Documents"
+#hash -d A="/media/ayu/dearest"
+#hash -d H="/media/data/backup/ayu"
+#hash -d E="/etc/"
+#hash -d D="/home/ayumi/Documents"
 #}}}
  
 ##for Emacs {{{
