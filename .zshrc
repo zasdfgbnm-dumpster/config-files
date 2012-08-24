@@ -111,7 +111,15 @@ limit coredumpsize 0
 bindkey -e
 #bindkey -v
 #设置 [DEL]键 为向后删除
-bindkey "\e[3~" delete-char
+bindkey "^[[3~" delete-char
+#设置 [HOME]键 为行首
+bindkey "^[[H" beginning-of-line
+#设置 [END]键 为行首
+bindkey "^[[F" end-of-line
+#设置 [CTRL+LEFT]键 为行首
+bindkey "^[[1;5D" backward-word
+#设置 [CTRL+RIGHT]键 为行首
+bindkey "^[[1;5C" forward-word
  
 #以下字符视为单词的一部分
 WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
