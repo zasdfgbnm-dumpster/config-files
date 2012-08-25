@@ -118,7 +118,7 @@ bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 #设置 [CTRL+LEFT]键 为行首
 bindkey "^[[1;5D" backward-word
-#设置 [CTRL+RIGHT]键 为行首
+#设置 [CTRL+RIGHT]键 为行尾
 bindkey "^[[1;5C" forward-word
  
 #以下字符视为单词的一部分
