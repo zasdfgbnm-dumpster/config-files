@@ -238,35 +238,11 @@ bindkey "\e\e" sudo-command-line
 #}}}
  
 #命令别名 {{{
-#alias cp='cp -i'
-#alias mv='mv -i'
-#alias rm='rm -i'
 alias ls='ls -F --color=auto'
-#alias ll='ls -al'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-#alias la='ls -a'
-#alias nmatlab='matlab -nosplash -nodesktop'
-#alias win2linux='iconv -f gb2312 -t utf-8'
-#alias touchpad='xinput set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "Device Enabled" '
-
-### arch linux专用命令别名 ####
-
-#alias pacman='pacman-color'
-#alias install='sudo pacman -S'
-#alias uninstall='sudo pacman -R'
-#alias search='pacman -Ss'
-#alias update='sudo pacman -Sy'
-#alias upgrade='sudo pacman -Su'
-#alias list='pacman -Q'
-#alias clean='sudo pacman -Scc'
-#alias p='sudo pacman-color'
-#alias y='yaourt'
-
-#alias h='htop'
 alias vi='vim'
-alias ping='ping -c 3'
  
 #[Esc][h] man 当前命令时，显示简短说明
 alias run-help >&/dev/null && unalias run-help
