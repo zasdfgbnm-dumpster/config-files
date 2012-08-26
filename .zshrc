@@ -12,7 +12,7 @@ FINISH="%{$terminfo[sgr0]%}"
  
 #命令提示符
 RPROMPT=$(echo "$RED%D %T$FINISH")
-PROMPT=$(echo "$CYAN%n@$YELLOW%m:$GREEN%/$_YELLOW>$FINISH ")
+PROMPT=$(echo "$CYAN%n@$YELLOW%m:$GREEN%/$_YELLOW\$$FINISH ")
  
 #PROMPT=$(echo "$BLUE%M$GREEN%/
 #$CYAN%n@$BLUE%M:$GREEN%/$_YELLOW>>>$FINISH ")
