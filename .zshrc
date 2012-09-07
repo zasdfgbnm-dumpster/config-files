@@ -239,6 +239,7 @@ bindkey "\e\e" sudo-command-line
  
 #命令别名 {{{
 alias ls='ls -F --color=auto'
+alias lc='ls -F --color=always'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
