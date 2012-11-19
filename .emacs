@@ -5,6 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(make-backup-files nil)
  '(c-default-style "linux")
+ '(column-number-mode t)
  '(inhibit-startup-screen t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
