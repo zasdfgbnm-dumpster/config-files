@@ -338,3 +338,5 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
  
  zle -N self-insert check-cmd-self-insert
  zle -N backward-delete-char check-cmd-backward-delete-char
+
+PATH=/home/gaoxiang/bin:$PATH
